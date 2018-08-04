@@ -1,0 +1,52 @@
+body{
+    background-image: url('background.png');
+    background-repeat : no-repeat;
+    background-size : 100%;
+    background-size: cover;
+}
+.nav-bar ul{
+    list-style-type: none;
+    margin : 0;
+    float:right;
+    padding: 35px 20px;
+    display: flex;
+    justify-content: space-between;
+    width:600px;
+    color:white;
+  
+}
+li{
+    display : inline-block
+
+}
+.logo{
+    height:90px;
+}
+h1 , h2{
+    text-align: center;
+    color: white;
+}
+.me{
+    border-radius: 400px;
+    width: 130px;
+    margin: auto;
+    display: block;
+    border: 2 solid red;
+}
+.contract{
+display: block;
+margin: auto;
+width: 151px;
+height: 42px;
+border: solid 1px greenyellow;
+background-color: transparent;
+margin-top: 25px;
+border-radius:5px;
+color:white;
+font-size: 21px;
+font-family: inherit;
+}
+
+.contract:hover{
+    border : solid 3px greenyellow;
+}
